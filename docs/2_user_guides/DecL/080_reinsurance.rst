@@ -17,10 +17,10 @@ The options for both clauses are:
 * Keywords ``ceded to`` or ``net of`` determine which losses flow out of the
   reinsurance.
 * A fraction ``po`` limit ``xs`` attachment describes a partial placement, e.g.,
-  ``0.5 so 3 xs 2``.
+  ``1 po 3 xs 2``.
 * A participation ``so`` limit ``xs`` attachment describes a partial placement
-  by the ceded limit, e.g., ``1 po 3 xs 2``. This syntax is equivalent to
-  ``0.333 so 3 xs 2``.
+  by the ceded limit, e.g., ``0.5 so 3 xs 2``. This syntax is equivalent to
+  ``1.5 po 3 xs 2``.
 
 An unlimited cover is denoted ``inf``. Shares of unlimited covers must be expressed as shares, for obvious reasons.
 
